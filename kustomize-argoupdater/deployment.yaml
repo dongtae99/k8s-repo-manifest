@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: dongtae9901/myweb:3.0
+      - image: dongtae9901/myweb:1.0
         name: nginx
         ports:
         - containerPort: 80
